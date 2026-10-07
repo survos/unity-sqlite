@@ -1,0 +1,7 @@
+{
+  "name": "Survos.Sqlite.Tests",
+  "rootNamespace": "Survos.Sqlite.Tests",
+  "references": ["Survos.Sqlite"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion><EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Runtime/**/*.cs" />
+    <Compile Include="../../Tests/Runtime/SqliteChecks.cs" />
+    <Compile Include="Program.cs" />
+    <None Include="../../Runtime/Plugins/macOS/libsurvos_sqlite.dylib" Link="libsurvos_sqlite.dylib" CopyToOutputDirectory="PreserveNewest" Condition="Exists('../../Runtime/Plugins/macOS/libsurvos_sqlite.dylib')" />
+    <None Include="../../Runtime/Plugins/Windows/survos_sqlite.dll" Link="survos_sqlite.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('../../Runtime/Plugins/Windows/survos_sqlite.dll')" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "name": "com.survos.sqlite",
+  "version": "0.1.0",
+  "displayName": "Survos SQLite",
+  "description": "Native SQLite 3.53.4 with asynchronous streaming for Unity 6 desktop applications.",
+  "unity": "6000.0",
+  "author": { "name": "Survos" },
+  "license": "MIT",
+  "keywords": ["sqlite", "database", "native", "folio"],
+  "samples": [{"displayName": "Basic Query", "description": "Ordinary C# async database usage", "path": "Samples~/BasicQuery"}]
+}

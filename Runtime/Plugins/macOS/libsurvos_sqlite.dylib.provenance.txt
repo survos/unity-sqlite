@@ -1,0 +1,6 @@
+Apple clang version 21.0.0 (clang-2100.3.34.2)
+Target: arm64-apple-darwin27.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+arm64; macOS >= 11.0; flags: see Native/build-macos.sh
+2e833af019d9f5a682b85bf6260710ae3bcfc5560a2506006aea76279b858801  ../Runtime/Plugins/macOS/libsurvos_sqlite.dylib

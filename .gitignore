@@ -1,0 +1,12 @@
+.work/
+ValidationTemp/
+Validation~/
+Native/sqlite/*
+!Native/sqlite/README.md
+!Native/sqlite/README.md.meta
+*.obj
+*.lib
+*.exp
+**/bin/
+**/obj/
+.DS_Store

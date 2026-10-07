@@ -1,0 +1,7 @@
+{
+  "name": "Survos.Sqlite",
+  "rootNamespace": "Survos.Sqlite",
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

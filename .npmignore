@@ -1,0 +1,11 @@
+.git/
+.github/
+.work/
+ValidationTemp/
+Validation~/
+Native/sqlite/amalgamation.zip
+Native/sqlite/sqlite3.c
+Native/sqlite/sqlite3.h
+**/bin/
+**/obj/
+*.log
